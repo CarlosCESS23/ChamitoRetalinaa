@@ -271,6 +271,7 @@ Arroz (Produto) e 3,23 (Preco)
     Update Tabela_de_Produto
     set preco = 9.99
     where id_produto = 2
+    
 ### 4. Delete
 
 É usado para apagar um dados
@@ -292,6 +293,7 @@ Sintaxe:
         Coluna1,coluna2 
     From tabela 
     Order by coluna1 ASC; --> Isso seria ordem crescente
+    
 #### Em ordem decrescente
 
 Sintaxe:
@@ -366,7 +368,7 @@ Manipulam valores de texto dentro do Banco de Dados
 * ``Lower()``-> Converte texto para minúsculas
 * ``Lenght()``-> Retorna o números de caracteres
 * ``Concat()``-> Junta duas Strings
-* ``Substring``-> Extrai parte de uma string
+* ``Substring()``-> Extrai parte de uma string
 
 ### Funções numéricas
 
@@ -377,6 +379,7 @@ Usadas para cálculos numéricos
 * ``Florr()``->Arrendonda para baixo
 * ``ABS()``-> Retorna o valor absoluto
 * ```RAND```-> Retorna um número aleatório
+* ```COELESC(<nome_variavel>, False)```-> Caso tenha dados , ele mostrará o valor, caso não , ele entra no FALSE  
 
 ### Funções de Data e Hora
 
@@ -388,6 +391,7 @@ Manipulam valores de data e hora.
 * ``Year()``->Retorna o ano de uma data
 * ``Month()``->Retorna o mês de uma data
 * ``Day()``-> Retorna o dia de uma data
+
 
 ## Group By
 
